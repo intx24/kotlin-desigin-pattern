@@ -1,9 +1,5 @@
 package singleton.exercise2
 
-import factory_method.sample.framework.Factory
-import factory_method.sample.framework.Product
-import factory_method.sample.idcard.IDCardFactory
-
 fun main(args: Array<String>) {
     println("Start.")
     val triple0: Triple = Triple.getInstance(0)
