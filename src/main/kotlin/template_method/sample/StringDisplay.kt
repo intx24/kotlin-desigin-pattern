@@ -1,4 +1,4 @@
-package template_method.example
+package template_method.sample
 
 class StringDisplay(private val string: String) : AbstractDisplay() {
     private val width: Int = string.length

@@ -1,4 +1,4 @@
-package template_method.example
+package template_method.sample
 
 fun main(args: Array<String>) {
     val d1: AbstractDisplay = CharDisplay('C')

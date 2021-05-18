@@ -1,4 +1,4 @@
-package template_method.example
+package template_method.sample
 
 abstract class AbstractDisplay {
     abstract fun open()

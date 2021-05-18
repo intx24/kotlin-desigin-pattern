@@ -1,6 +1,4 @@
-package template_method.example
-
-import java.io.InputStream
+package template_method.sample
 
 class CharDisplay(private val char: Char) : AbstractDisplay() {
     override fun open() {
