@@ -1,6 +1,6 @@
-package abstract_factory.sample
+package abstract_factory.exercise1
 
-import abstract_factory.sample.factory.Factory
+import abstract_factory.exercise1.factory.Factory
 
 fun main(args: Array<String>) {
     val className = "ListFactory"

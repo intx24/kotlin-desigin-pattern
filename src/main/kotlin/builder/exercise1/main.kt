@@ -1,4 +1,4 @@
-package builder.sample
+package builder.exercise1
 
 
 fun main(args: Array<String>) {

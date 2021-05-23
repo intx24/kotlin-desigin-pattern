@@ -10,11 +10,11 @@ class FileProperties : FileIO {
     private val properties: Properties = Properties()
 
     override fun readFromFile(fileName: String) {
-        this.properties.load(FileInputStream("src/abstract_factory.main/kotlin/adapter/sample/exercise/${fileName}"))
+        this.properties.load(FileInputStream("src/abstract_factory.decorator.sample.main/kotlin/adapter/sample/exercise/${fileName}"))
     }
 
     override fun writeToFile(fileName: String) {
-        this.properties.store(FileOutputStream("src/abstract_factory.main/kotlin/adapter/sample/exercise/${fileName}"), "written by FileProperties")
+        this.properties.store(FileOutputStream("src/abstract_factory.decorator.sample.main/kotlin/adapter/sample/exercise/${fileName}"), "written by FileProperties")
     }
 
     override fun setValue(key: String, value: String) {
